@@ -32,7 +32,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
         - name: server
-          image: adesuraj/frontend:v2
+          image: adesuraj/frontend:v3
           ports:
           - containerPort: 8080
           readinessProbe:
