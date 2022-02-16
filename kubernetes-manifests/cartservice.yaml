@@ -31,7 +31,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: amol1996/cartservice:v1
+        image: devandcld/cartservice:v1
         ports:
         - containerPort: 7070
         env:

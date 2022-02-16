@@ -34,7 +34,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: main
-        image: adesuraj/loadgenerator:v1
+        image: devandcld/loadgenerator:v1
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
